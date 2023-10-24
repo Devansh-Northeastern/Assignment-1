@@ -1,0 +1,251 @@
+body {
+    background: linear-gradient(#bed4f4, #eebdab);
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+small {
+    letter-spacing: 2px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+form {
+    text-align: center;
+}
+
+#About-us {
+    padding: 1% 2%;
+    background-color: rgba(68, 59, 59, 0.844);
+    color: white;
+}
+
+
+form input {
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid rgba(8, 66, 152, 0.674);
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+}
+
+form button {
+    background-color: transparent;
+    font-weight: 700;
+    border: 1px solid rgba(36, 30, 191, 0.512);
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+    color: rgba(36, 30, 191, 0.512);
+}
+
+form button:hover {
+    background-color: rgba(36, 30, 191, 0.512);
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    margin-top: 1%;
+    margin-bottom: -0.2%;
+    font-family: cursive;
+}
+
+#contact-info-block {
+    float: right;
+    background-color: rgba(35, 30, 191, 0.297);
+    height: 80%;
+    width: 50%;
+    color: white;
+}
+
+#contact-form {
+    float: left;
+    height: 80%;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.495);
+}
+
+h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#contact-info {
+    padding: 0% 2%;
+}
+
+#social_media {
+    padding: 2%;
+    text-align: right;
+    margin-top: 4%;
+}
+
+#social_media a {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 5%;
+    margin-bottom: 10em;
+    border-radius: 20%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #222222;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+
+/* tr:nth-child(even) {
+    background-color: #a1a1a179;
+} */
+
+
+menu {
+    padding: 0 41%;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 2%;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.718);
+    border-bottom: 1px solid black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+#img-1 {
+    float: right;
+    border-radius: 5%;
+    margin: 0 2%;
+}
+
+#img-2 {
+    float: left;
+    border-radius: 5%;
+    margin: 0 2%;
+}
+
+#about-us p {
+    display: inline-block;
+}
+
+#refreshers {
+    margin-top: 50px;
+    padding: 1% 2%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+marquee {
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+    margin-top: 5px;
+}
+
+.container {
+    position: relative;
+  }
+
+#banner {
+    height: 700px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  
+.text-block {
+    position: absolute;
+    border-radius: 10px;
+    border: 3px dotted white;
+    bottom: 10%;
+    right: 30%;
+    width: 35%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Header-block {
+    position: absolute;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.564);
+}
+
+/* Course page css */
+
+#course-list {
+    width: 100%;
+    position: relative;
+    height: fit-content;
+    display: inline-block;
+}
+
+.course{
+    border-radius: 10px;
+    float: left;
+    margin: 0px 7px;
+    min-height: 450px;
+    width: 20%;
+    background-color: white;
+    padding: 1% 2%;
+}
+
+.course:nth-child(even){
+
+    background-color: rgba(203, 252, 105, 0.26);
+
+}
+
+
+.course:nth-child(odd){
+
+    background-color: rgba(201, 105, 252, 0.26);
+
+}
+
+.course img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 25% 25%;
+    border-radius: 5%;
+}
